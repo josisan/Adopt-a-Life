@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.logo-pethome{
+    width:100%;
+    height:50px;
+}
+
+.logo{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+}
+
+/*Nav-----------------------------------------------------------------------------------------------------------------*/
+
+.link-nav{
+    text-decoration: none;
+    color: #414141;
+}
+
+.list{
+    display: block;
+    list-style: none;
+    padding: 65px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin: 20px;
+}
+
+.a{
+    background: #27B6BA;
+}
+
+.b{
+    background: #F49F38;
+}
+
+.c{
+    background: #27B6BA;
+}
+
+.d{
+    background: ;
+}
+
+.list a {
+    color: #ffffff;
+    font-family: 'Bree Serif', serif;
+}
+
+    .list:hover {
+        background-color: #ffffff;
+    }
+
+.list:hover .a{
+    background-color: #414141;
+    opacity: 10%;
+}
+
+    .list:hover .link-nav{
+        color: #414141;
+    }
+
+/*Modulo de Registro---------------------------------------------------------------------------------------------------*/
+.credentials {
+    padding-top: 10px;
+}
+
+.credentials a {
+    display: inline-block;
+    text-decoration: none;
+    color: #F49F38;
+}
+
+
+
+/*hr-------------------------------------------*/
+.hr{
+    width: 100%;
+    height: 50px;
+    opacity: 0;
+}

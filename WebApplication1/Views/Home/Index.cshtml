@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Adopt a Life";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - Home</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body class="d-flex col-12" style="height:auto;">
+    <div class="first-container">
+        <header>
+
+                    <div class="credentials d-flex justify-content-end" style="position:relative; bottom: 100%;">
+                        <a href="~/../Views/Home/Registrarse.cshtmld" class="sign-up">Log up</a>&nbsp|&nbsp<a href="#" class="sign-in">Log in</a>
+                    </div>
+
+                    <div class="logo-pethome">
+                        <a href="https://localhost:7093/" class="linkLogo"><img src="~/img/pet.jpg" class="logo rounded float-start" alt="Pet Home"></a>
+                    </div>
+
+                    <div class="franja" style="width: 100%; height: 70px; background: #3c5763; position: absolute; opacity: 60%; z-index: 0;"></div>
+                    <hr class="hr"/>
+
+                <nav class="navBar" style="position:relative;">
+                    <div class="menu-nav d-flex align-self-center flex-wrap justify-content-end">
+                        <ul class="listItems" style="font-size: 25px;">
+                            <li class="list a"><a href="#" class="link-nav">Quienes Somos</a></li>
+                            <li class="list b"><a href="#" class="link-nav">Donaciones</a></li>
+                            <li class="list c"><a href="#" class="link-nav">Noticias e Información</a></li>
+                            <li class="list d"><a href="#" class="link-nav">Tiendas</a></li>
+                        </ul>
+                    </div>
+
+
+                    @*<label for="checkbox" class="hamburger">
+                        <input type="checkbox" id="checkbox">
+                        <span class="line line--top"></span>
+                        <span class="line line--middle"></span>
+                        <span class="line line--bottom"></span>
+                    </label>*@
+                </nav>
+
+                <!--Slider-->
+
+                @*<div class="container-slider">
+                    <div class="slider">
+                        <div class="box1">
+                        </div>
+                        <div class="box2">
+                        </div>
+                        <div class="box3">
+                        </div>
+                        <div class="box4">
+                        </div>
+                        <div class="box5">
+                        </div>
+                        <div class="box6">
+                        </div>
+                        <div class="box7">
+                        </div>
+                    </div>
+                </div>*@
+        </header>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </div>
+</body>
+</html>
